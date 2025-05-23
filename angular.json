@@ -27,14 +27,35 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               {
+                  "glob": "**/*",
+               "input": "public"
+               
+              },
+               {
                 "glob": "**/*",
-                "input": "public"
-              }
+               "input": "assets/fonts"
+               },
+              {
+              "glob": "**/*",
+               "input": "assets/img"
+              },
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+               "node_modules/@angular/material/prebuilt-themes/azure-blue.css",
+              "src/styles.scss",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/all.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.carousel.min.css",
+              "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css"
+             
             ],
-            "scripts": []
+            "scripts": [
+                "src/assets/js/jquery.min.js",
+              "src/assets/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
