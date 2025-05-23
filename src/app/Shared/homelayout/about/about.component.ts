@@ -21,7 +21,7 @@ export class AboutComponent {
   {
     "title": "Connect",
     "description": "Building Meaningful Connections: Connecting with the target audience is crucial in digital marketing. This involves leveraging various platforms and channels to establish meaningful connections with potential customers and existing audiences. ",
-    
+     "image" : "../../../../assets/images/connect.png"
   },
   {
     "title": "Convert",
