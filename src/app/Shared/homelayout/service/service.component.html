@@ -2,7 +2,7 @@
  
       <div class="container about-cnt mb-4 mt-5">
         <div class="row">
-          <div class="col col-md-12 col-12 col-lg-6">
+          <div class="col col-md-12 col-12 col-lg-6 wow fadeInLeft" data-wow-delay=".25s">
             <h3 class="service__sec__subtitle">What We Do  <span class="border-title"></span></h3>
     
              <h2 class="service__sec__title"> The Perfect Services <br>We're Offering</h2>
@@ -17,7 +17,7 @@
           <div class="col col-md-12 col-12 col-lg-6">
             <div class="service__sec__cardsec">
                 <div class="row">
-                  <div class="col col-md-6 col-12 col-lg-6 mt-3" *ngFor="let servicedtls of servicecarddata; let listIndex=index">
+                  <div class="col col-md-6 col-12 col-lg-6 mt-3 wow fadeInRight" data-wow-delay=".25s" *ngFor="let servicedtls of servicecarddata; let listIndex=index">
                     <div class="service__sec__card">
                         <div class="service__sec__cardsec__cardbody">
                             <img src="{{servicedtls.img}}" class="m-2 mb-3 img-fluid" alt="web">

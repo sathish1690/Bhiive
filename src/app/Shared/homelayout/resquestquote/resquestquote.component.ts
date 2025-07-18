@@ -21,7 +21,6 @@ export class ResquestquoteComponent {
 
   ngOnInit(): void {
     emailjs.init('XO2OAzh8e1ySHkJPR'); // Ensure EmailJS is initialized
-
     this.form = this.formBuilder.group({
       firstname: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(20)]],
       lastname: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(20)]],
