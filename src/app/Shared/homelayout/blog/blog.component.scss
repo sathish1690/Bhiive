@@ -1,10 +1,31 @@
 .blog-section{
-    background: #182132;
+    background: url('../../../../assets/images/blog_bg.jpg') no-repeat top center;
     padding: 70px 0px;
+    background-size: cover;
 }
 .blog-subtitle{
-    color: #0d6efd;
+    color: #fa962c;
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.blog-subtitle:after {
+    content: "";
+    margin-left: 10px;
+    height: 3px;
+    width: 50px;
+    background: #fa962c;
+    border-radius: 20px;
+}
+.blog-subtitle::before {
+    content: "";
+     margin-right: 10px;
+    height: 3px;
+    width: 50px;
+    background: #fa962c;
+    border-radius: 20px;
 }
 .blog-title{
     color: #fff;
@@ -63,4 +84,12 @@ span.blog-username {
 span.fas.fa-arrow-right {
     float: right;
     margin-top: 5px;
+}
+.heading-divider {
+    display: inline-block;
+    position: relative;
+    border-bottom:4px solid #fa962c;
+    width: 90px;
+    height: 4px;
+    border-radius: 50px;
 }

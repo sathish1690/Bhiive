@@ -4,13 +4,12 @@
            
                 <h5 class="blog-subtitle text-center">Blogs</h5>
                 <h4 class="blog-title text-center">Our Recent Post & News</h4>
-                <p class="mt-2 text-center blog-subcnt">Some quick example text to build on the card title</p>
-                <owl-carousel-o [options]="customOptions">
+                <!-- <p class="mt-2 text-center blog-subcnt">Some quick example text to build on the card title</p> -->
+                <owl-carousel-o [options]="blogslide">
                   
                      <ng-template carouselSlide>
-                                            <div class="card mt-4  blog-card">
-                                                <img src="../../../../assets/images/ui-ux.jpeg" class="card-img-top" alt="...">
-                    
+                        <div class="card mt-4  blog-card">
+                            <img src="../../../../assets/images/ui-ux.jpeg" class="card-img-top" alt="...">
                                  <div class="card-body blog-card-body">
                                     <div class="row blog-userdtls">
                                         <div class="col col-md-6">
@@ -28,11 +27,10 @@
                                    <button class="btn btn-primary mt-3 mb-3">Read More <span class="fas fa-arrow-right"></span></button>
                                  </div>
                                </div>
-                                        </ng-template>  
-                                        <ng-template carouselSlide>
-                                            <div class="card mt-4  blog-card">
-                                                <img src="../../../../assets/images/ui-ux.jpeg" class="card-img-top" alt="...">
-                    
+                      </ng-template>  
+                    <ng-template carouselSlide>
+                        <div class="card mt-4  blog-card">
+                            <img src="../../../../assets/images/ui-ux.jpeg" class="card-img-top" alt="...">
                                  <div class="card-body blog-card-body">
                                     <div class="row blog-userdtls">
                                         <div class="col col-md-6">
@@ -49,7 +47,7 @@
                                    
                                    <button class="btn btn-primary mt-3 mb-3">Read More <span class="fas fa-arrow-right"></span></button>
                                  </div>
-                               </div>
+                         </div>
                                         </ng-template>  
                                         <ng-template carouselSlide>
                                             <div class="card mt-4  blog-card">
