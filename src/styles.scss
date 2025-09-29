@@ -251,12 +251,14 @@ i.fa-brands.fa-twitter, i.fa-brands.fa-instagram, i.fa-brands.fa-linkedin-in{
   display: flex;
   
   &__cardtitle{
-    color: #fff;
-    font-size: 20px;
+    color: #fa962c;
+    font-size: 22px;
+    font-weight: 600;
   }
   &__cardtext{
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 18px;
   }
    .material-symbols-outlined{
     color: #db6f02;
@@ -298,20 +300,20 @@ i.fa-brands.fa-twitter, i.fa-brands.fa-instagram, i.fa-brands.fa-linkedin-in{
   
   &__desc{
   color: #fff;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 25px;
 }
  .about-card .card-title{
-  color: #fff;
+  color: #fa962c;
   font-size: 15px;
 }
  .about-card .card-text{
   color: #fff;
-  font-size:12px;
+  font-size:14px;
   line-height: 20px;
 }
 h5.card-title.about-card-title .border-title {
-  background: #2d4166;
+  background: #fa962c;
   width: 52px;
   height: 2px;
   transform: rotate(0deg);
@@ -375,8 +377,8 @@ h5.card-title.about-card-title .border-title {
 }
 &__desc{
   color: #fff;
-  font-size: 13px;
-  line-height: 25px;
+  font-size: 14px;
+  line-height: 23px;
 }
 
 &__subtitle {
@@ -437,8 +439,8 @@ background: #182132;
 }
 &__desc  {
   color: #fff;
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 22px;
 }
 &__accordionheader{
   font-size: 18px;
@@ -707,22 +709,47 @@ color: #fff;
 }
 
 /*Protfolio*/
-.protfolio__sec{
+.protfolio{
   background:url(./assets/images/footerbg.png) #010715;
   padding: 50px 0px 50px;
 
-  h4{
+  &__subtitle{
    color: #fa962c;
-    font-size: 32px;
-    font-weight: bold;
-  }
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
   
+  &:after {
+    content: "";
+    margin-left: 10px;
+    height: 3px;
+    width: 50px;
+    background: #fa962c;
+    border-radius: 20px;
+}
+ &:before {
+    content: "";
+     margin-right: 10px;
+    height: 3px;
+    width: 50px;
+    background: #fa962c;
+    border-radius: 20px;
+}
+}
+&__title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+}
 }
 
 /*Footer*/
 .footer__sec{
-  background:url(./assets/images/footerbg.png) #010715;
-  //background: #182132;
+  //background:url(./assets/images/footerbg.png) #010715;
+  background: #182132;
   padding: 50px 0px 0px;
 
 
