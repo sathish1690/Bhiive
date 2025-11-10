@@ -1,0 +1,36 @@
+.bannersec{
+    background: url("../../../assets/images/banner.jpg") no-repeat right;
+    height: 700px;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+h1.hero-title {
+    color: #fff;
+    font-size: 43px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 59px;
+}
+.hero-title span{
+     color: #fa962c;
+}
+.hero-sub-title{
+    color: #fa962c;
+}
+.hero-content p{
+    color: #fff;
+    font-size: 18px;
+}
+.border-title
+{
+    background: #fa962c;
+    width: 100px;
+    height: 2px;
+    transform: rotate(0deg);
+    display: inline-block;
+    margin-right: 3px;
+}
